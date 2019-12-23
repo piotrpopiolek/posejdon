@@ -1,0 +1,304 @@
+body {
+    background: #fff;
+    color: #FFF;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+}
+
+.text{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 480px)
+{
+    .text{
+        font-size: 15px;
+    }
+}
+
+#carouselAbout{
+   float:left;
+   /* padding-top: 4%; */
+   padding-right: 25px;
+   padding-left: 0;
+   margin-left:0px;
+   height: 100%;
+   width: 50%;
+}
+
+.circle{
+    border-radius:50%;
+    background-color: brown;
+    height:150px;
+    width: 150px;
+    padding:5%;
+    /* margin: 0px 50px 0px 50px; */
+}
+.space{
+    /* margin: 90px 0 0 0; */
+}
+.center{
+    text-align: center;
+}
+.border{
+    
+    border-bottom: 2.5px solid yellow;
+    padding-left:0px;
+}
+
+.border-animation{
+    border-top: 2.5px solid red;
+    animation: drawLine 5s infinite;
+}
+
+.home-section .container-fluid {
+	height:inherit;
+}
+.home-section .wrapper {
+	height:inherit;
+    position: absolute;
+    overflow: hidden;
+    display: table;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.home_title {
+    font-size: 3em;
+    text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
+    margin-top: -0.7em;
+    position: absolute;
+    width: 100%;
+    top: 42%;
+}
+.home_title {
+    font-size: 4.5em;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+    margin-top: -0.7em;
+    position: absolute;
+    width: 100%;
+    top: 28%;
+    color: white;
+    text-align: center;
+    font-weight: 200;
+}
+.home_logo{
+    margin: auto;
+    position: absolute;
+    top: 25px;
+    right: 4%;
+    width: 250px;
+}
+
+.title_content {
+    margin: auto;
+    bottom: 10%;
+    margin-top: -0.7em;
+    position: absolute;
+    width: 60%;
+    opacity: 1;
+    left: 0;
+    right: 0;
+    line-height: 100px;
+    color: white;
+    text-align: center;
+    display: inline;
+    font-family: 'Forum', cursive;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 4em;
+    line-height: 1.2em;
+    letter-spacing: 2px;
+}
+
+.home-section {
+    background: url(../images/POSEIDON_3.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #FFF;
+    width: 101%;
+    height: 100%;
+    overflow: hidden;
+}
+.home-section * {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-font-smoothing: antialiased;
+}
+.home-section .section-content {
+    height: 100%;
+}
+.home-section .section-content .section-wrap {
+    height: 100%;
+	width:100%;
+}
+/* ------------------------------------------------------------------------ 
+About me
+------------------------------------------------------------------------ */
+.title{
+    padding: 50px 0 75px 0;
+    flex-basis: 100%;
+    text-align: center;
+}
+.title h1{
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.line{
+    height: 5px;
+    width: 100%;
+}
+.column-left{
+    flex-basis: 50%;
+}
+.column-left img{
+    width: 100%;
+}
+.column-right{
+    flex-basis: 50%;
+    padding: 0 50px 0 50px;
+}
+h2{
+    font-family: Aspergit;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 32px;
+    letter-spacing: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+/* .column-right p{
+    font-size: 1.1em;
+    text-align: justify;
+} */
+
+canvas{
+    height: 100vh;
+}
+
+/* ------------------------------------------------------------------------ 
+Third section
+------------------------------------------------------------------------ */
+.about-section{
+    background: url('../images/KONCERT2\ GRAY\ VECTOR.jpg') no-repeat center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #FFF;
+    width: 101%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.model1-section{
+    background: url('../images/KONCERT2\ GRAY\ VECTOR.jpg') no-repeat center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #FFF;
+    width: 101%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.model2-section{
+    background: url('../images/KONCERT2\ GRAY\ VECTOR.jpg') no-repeat center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #FFF;
+    width: 101%;
+    height: 100%;
+    overflow: hidden;
+}
+.container{
+    width: 100% !important;
+    margin:0px;
+    padding: 0px;
+}
+.bottom{
+    padding-top: 6%;
+}
+.justi{
+    text-align: justify;
+}
+.left{
+    margin-left:0;
+    padding-left: 0;
+}
+#menu{
+    display: flex;
+    flex-basis: 100%;
+    height: 120px;
+    background-color: transparent;
+}
+.menu-gryf{
+    padding-top: 30px;
+    padding-left: 10px;
+    flex-basis: 60px;
+}
+.menu-element{
+    flex-grow: 1;
+    text-align: center;
+    font-size: 24px;
+    margin: auto;
+    text-transform: uppercase;
+}
+.menu-logo{
+    width: 240px;
+    height: 100px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.navi{
+    display: flex;
+    flex-grow: 1;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover,a:active,a:visited,a:focus{
+    color: #fff;
+    text-decoration: none;
+}
+
+.link{
+    position: relative;
+    text-decoration: none;
+  }
+  
+.link:after{
+    content: '';
+    position: absolute;
+    width: 0; height: 3px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: #fff;
+    transition: width .2s ease;
+    -webkit-transition: width .2s ease;
+}
+   
+.link:hover:after{
+    width: 100%;
+    left: 0;
+    background: #fff;
+}
