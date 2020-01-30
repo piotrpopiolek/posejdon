@@ -1009,10 +1009,6 @@
     }
 }
 @media screen and (max-width: 768px) {
-    /* Home */
-    .title_content {
-        font-size: 1em;
-    }
     /* Our timeline */
 	#timeline-wrap{
 		height: auto;
