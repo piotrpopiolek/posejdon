@@ -1,5 +1,5 @@
 body {
-    background: #fff;
+    background: #000;
     color: #FFF;
     font-weight: 400;
     font-size: 18px;
@@ -375,6 +375,10 @@ a:hover, a:active, a:visited, a:focus {
     border-color: gold;
 }
 
+#fp-nav {
+    display: none !important;
+}
+
 @media only screen and (max-width: 768px) {
     #menu {
         display: none;
@@ -415,4 +419,5 @@ a:hover, a:active, a:visited, a:focus {
         padding-top: 20px;
         padding-right: 20px;
     }
+    
 }

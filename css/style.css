@@ -46,7 +46,7 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 body {
-    background: #fff;
+    background: #000;
     color: #FFF;
     font-weight: 400;
     font-size: 16px;
@@ -289,7 +289,7 @@ HOME
     text-align: center;
 }
 #background {
-    background: url(../images/background.jpg) no-repeat 50% 100%;
+    background: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -3582,7 +3582,7 @@ a:focus {
     top: 0;
     width: 51%;
     height: 100%;
-    background: #FFF;
+    background: black;
     z-index: 1000;
     -webkit-transform: translateX(0);
     -moz-transform: translateX(0);
