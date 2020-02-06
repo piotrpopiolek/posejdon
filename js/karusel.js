@@ -6,6 +6,8 @@ slidesAbout[1] = 'images/g2.jpg';
 slidesAbout[2] = 'images/g3.jpg';
 slidesAbout[3] = 'images/g4.jpg';
 
+window.onload = changeSlideAbout;
+
 function changeSlideAbout() {
   document.carouselAbout.src = slidesAbout[i];
   if (i < slidesAbout.length - 1) {
@@ -17,4 +19,4 @@ function changeSlideAbout() {
   setTimeout("changeSlideAbout()", time);
 }
 
-window.onload = changeSlideAbout;
+
